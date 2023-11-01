@@ -5,3 +5,4 @@ rubah data_sample.csv jadi data.csv
 masukan data-data di data.csv
 install Python 
 jalankan main.py
+by : https://t.me/useragens
