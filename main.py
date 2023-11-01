@@ -86,7 +86,7 @@ def mulai():
             token_tx = contract.functions.transfer(alamat_penerima, amount).build_transaction({
                 'chainId': chain_id,
                 'gas': 210000,
-                'gasPrice': web3.to_wei('150', 'gwei'),
+                'gasPrice': web3.to_wei('50', 'gwei'),
                 'nonce': nonce
             })
             sign_txn = web3.eth.account.sign_transaction(token_tx, private_key=private_key)
@@ -96,7 +96,7 @@ def mulai():
                 'to': alamat_penerima,
                 'value': amount,
                 'gas': 210000,
-                'gasPrice': web3.to_wei('150', 'gwei'),
+                'gasPrice': web3.to_wei('50', 'gwei'),
                 'nonce': nonce,
                 'chainId': chain_id
             }
